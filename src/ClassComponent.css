@@ -1,0 +1,37 @@
+#blockcss{
+    font-size: 20px;
+}
+body{
+    background: linear-gradient(#32f814,#f34e02,#aa0763);
+    background-repeat: no-repeat;
+}
+#block2{
+        display: block;
+        position: absolute;
+        left: 200px;
+        margin: 50px 0 0 50px;
+        width : 400px;
+        height : 300px;
+        border : 2px solid black;
+        border-radius : 50px;
+        text-align : center;
+        padding-top : 50px;
+        background-color : aqua;
+}
+#block1{
+        display: block;
+        position: absolute;
+        left: 800px;
+        margin: 50px 0 0 50px;
+        width : 400px;
+        height : 300px;
+        border : 2px solid black;
+        border-radius : 50px;
+        text-align : center;
+        padding-top : 50px;
+        background-color : rgba(238, 130, 238, 0.952);
+}
+.inline{
+    color : blue;
+    font-size: 20px;
+}
