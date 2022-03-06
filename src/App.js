@@ -1,18 +1,13 @@
-import React, {Component} from "react";
-import {Form} from "./Form";
+import React from "react";
+import Apps from "./React1/App1"
 
 
-class App extends Component{
-    render(){
+function App () {
         return(
-            <div>
-                <h1>EMPLOYEE FEEDBACK FORM</h1>
-                <br/>
-                <br/>
-                <Form />
-            </div>
-        )
+    <div>
+       
+        <Apps/>
+    </div>
+        );
     }
-}
-
 export default App;
